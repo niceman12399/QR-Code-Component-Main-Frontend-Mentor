@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | QR code component</title>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins&display=swap');
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(212, 45%, 89%);
+      }
+      .container{
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 13px;
+        padding: 18px;
+      }
+      .container img{
+        width: 300px;
+        border-radius: 13px;
+      }
+      .container p{
+        text-align: center;
+      }
+      .container .container-p-1{
+        font-weight: 700;
+        font-size: 25px;
+        margin-top: 15px;
+        color: hsl(218, 44%, 22%);
+        font-family: 'Oswald', sans-serif;
+      }
+      .container .container-p-2{
+        font-weight: 400;
+        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        color: hsl(220, 15%, 55%);
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+    
+  </head>
+  <body>
+    <div class="container">
+      <img src="images/image-qr-code.png">
+      <p class="container-p-1">Improve your front-end<br> skills by building projects</p>
+      <p class="container-p-2">Scan the QR code to visit Frontend<br> Mentor and take your coding skills to<br> the next level</p>
+    </div>
+  </body>
+</html>
